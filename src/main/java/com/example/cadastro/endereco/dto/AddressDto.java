@@ -1,18 +1,21 @@
 package com.example.cadastro.endereco.dto;
 
-import com.example.cadastro.endereco.models.Address;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class PersonDto {
+public class AddressDto {
 
-    private String name;
-    private List<Address> addressList;
+    private String street;
 
+    private String number;
+
+    private String type;
+
+    private String neighborhood;
+
+    private String municipality;
 }
