@@ -13,6 +13,6 @@ import java.util.List;
 public class PersonDto {
 
     private String name;
-    private List<Address> addressList;
+    private List<Address> addresses;
 
 }

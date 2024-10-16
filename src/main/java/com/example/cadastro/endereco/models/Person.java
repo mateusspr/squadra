@@ -25,5 +25,5 @@ public class Person {
 
     @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "person_id")
-    private List<Address> addressList;
+    private List<Address> addresses;
 }
