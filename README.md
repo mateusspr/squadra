@@ -16,8 +16,6 @@ Registration of MUNICIPALITY, NEIGHBORHOOD, ADDRESS, NUMBER, STREET and PERSON. 
 
 ## Instalação
 
-Instale my-project com npm
-
 ```bash
   Java version - 17.1
 ```
